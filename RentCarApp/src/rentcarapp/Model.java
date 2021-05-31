@@ -9,6 +9,7 @@ package rentcarapp;
  *
  * @author Dell
  */
-public class Model {
+public enum Model {
+    FORD,TESLA,FERRARI,TOYOTA,VW
     
 }

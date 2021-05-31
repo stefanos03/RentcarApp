@@ -5,17 +5,22 @@
  */
 package rentcarapp;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Dell
  */
 public class RentCarApp {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
-        // TODO code application logic here
+         HireCustomer cust ;
+    cust= new HireCustomer("Stefan",27,25.0);
+    Vehicle currentVehicle = new Car("VW",50.0,true);
+    ArrayList<Vehicle> vehicles = new ArrayList<>();
+    vehicles.add(currentVehicle);
+    Hire hire;
     }
     
 }
